@@ -28,7 +28,7 @@
           <mat m="Identity" />
         </circle>
         <circle id="7" c="22.2249999999999,1196.975,0" d="2.793999999999893">
-          <ModificationCount>96</ModificationCount>
+          <ModificationCount>112</ModificationCount>
           <mat m="Identity" />
         </circle>
         <circle id="8" c="431.8,942.975,0" d="2.7939999999999388">
@@ -185,14 +185,14 @@
     <part Name="Part1">
       <machineops>
         <pocket Enabled="true">
-          <TargetDepth state="Default">0</TargetDepth>
-          <DepthIncrement state="Default">0</DepthIncrement>
+          <TargetDepth state="Value">-6.35</TargetDepth>
+          <DepthIncrement state="Value">1</DepthIncrement>
           <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
           <CutOrdering state="Default">LevelFirst</CutOrdering>
-          <StepOver state="Default">0</StepOver>
+          <StepOver state="Value">0.65</StepOver>
           <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
           <MillingDirection state="Default">Conventional</MillingDirection>
-          <CollisionDetection state="Default">False</CollisionDetection>
+          <CollisionDetection state="Default">True</CollisionDetection>
           <LeadInMove state="Default" />
           <LeadOutMove state="Default" />
           <RegionFillStyle state="Default">InsideOutsideOffsets</RegionFillStyle>
@@ -200,29 +200,94 @@
           <FinishStepoverAtTargetDepth state="Default">False</FinishStepoverAtTargetDepth>
           <StockSurface state="Default">0</StockSurface>
           <RoughingClearance state="Default">0</RoughingClearance>
-          <ClearancePlane state="Default">0</ClearancePlane>
-          <SpindleDirection state="Default">Off</SpindleDirection>
-          <SpindleSpeed state="Default">0</SpindleSpeed>
+          <ClearancePlane state="Default">3</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Default">12000</SpindleSpeed>
           <SpindleRange state="Default">0</SpindleRange>
           <VelocityMode state="Default">Undefined</VelocityMode>
           <primitive>
             <prim>59</prim>
           </primitive>
-          <Transform state="Default" />
+          <Style>Tool | MDF | Endmill 0.25in 4F</Style>
           <WorkPlane state="Default">XY</WorkPlane>
-          <OptimisationMode state="Default">Standard</OptimisationMode>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
           <RoughingFinishing state="Default">Roughing</RoughingFinishing>
-          <ToolDiameter state="Default">0</ToolDiameter>
-          <ToolNumber state="Default">0</ToolNumber>
-          <ToolProfile state="Default">Unspecified</ToolProfile>
-          <PlungeFeedrate state="Default">0</PlungeFeedrate>
-          <CutFeedrate state="Default">0</CutFeedrate>
-          <MaxCrossoverDistance state="Default">0</MaxCrossoverDistance>
-          <StartPoint state="Default">0,0,0</StartPoint>
+          <ToolDiameter state="Default">6.35</ToolDiameter>
+          <ToolNumber state="Default">15</ToolNumber>
+          <ToolProfile state="Default">EndMill</ToolProfile>
+          <PlungeFeedrate state="Default">120</PlungeFeedrate>
+          <CutFeedrate state="Default">3000</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.25</MaxCrossoverDistance>
+          <StartPoint state="Default" />
           <CustomMOPHeader state="Default" />
           <CustomMOPFooter state="Default" />
           <Name>Pocket1</Name>
         </pocket>
+        <drill Enabled="true">
+          <TargetDepth state="Value">-21</TargetDepth>
+          <DepthIncrement state="Default">0.1</DepthIncrement>
+          <DrillLeadOut state="Default">False</DrillLeadOut>
+          <SpiralFlatBase state="Default">True</SpiralFlatBase>
+          <LeadOutLength state="Default">0</LeadOutLength>
+          <DrillingMethod state="Default">SpiralMill_CW</DrillingMethod>
+          <PeckDistance state="Default">0</PeckDistance>
+          <RetractHeight state="Default">0</RetractHeight>
+          <Dwell state="Default">0</Dwell>
+          <CustomScript state="Default" />
+          <StockSurface state="Default">0</StockSurface>
+          <RoughingClearance state="Default">0</RoughingClearance>
+          <ClearancePlane state="Default">3</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Default">15000</SpindleSpeed>
+          <SpindleRange state="Default">0</SpindleRange>
+          <VelocityMode state="Default">Undefined</VelocityMode>
+          <primitive>
+            <prim>1</prim>
+            <prim>2</prim>
+            <prim>3</prim>
+            <prim>4</prim>
+            <prim>5</prim>
+            <prim>6</prim>
+            <prim>7</prim>
+            <prim>8</prim>
+            <prim>9</prim>
+            <prim>10</prim>
+            <prim>11</prim>
+            <prim>12</prim>
+            <prim>13</prim>
+            <prim>14</prim>
+            <prim>15</prim>
+            <prim>16</prim>
+            <prim>17</prim>
+            <prim>18</prim>
+            <prim>19</prim>
+            <prim>20</prim>
+            <prim>21</prim>
+            <prim>22</prim>
+            <prim>23</prim>
+            <prim>24</prim>
+            <prim>25</prim>
+            <prim>26</prim>
+            <prim>27</prim>
+            <prim>28</prim>
+            <prim>29</prim>
+            <prim>30</prim>
+          </primitive>
+          <Style>Tool | MDF | Ball 2.0mm 2F</Style>
+          <WorkPlane state="Default">XY</WorkPlane>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
+          <ToolDiameter state="Default">2</ToolDiameter>
+          <ToolNumber state="Default">10</ToolNumber>
+          <ToolProfile state="Default">BallNose</ToolProfile>
+          <PlungeFeedrate state="Default">120</PlungeFeedrate>
+          <CutFeedrate state="Default">3000</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.25</MaxCrossoverDistance>
+          <StartPoint state="Default" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
+          <Name>Drill1</Name>
+        </drill>
       </machineops>
       <Stock>
         <PMin>0,0</PMin>

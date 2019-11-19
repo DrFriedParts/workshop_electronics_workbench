@@ -174,6 +174,7 @@
     </layer>
   </layers>
   <MachiningOptions>
+    <OutFile>{$cbfile.name}.nc</OutFile>
     <Stock>
       <PMin>0,0</PMin>
       <PMax>0,0</PMax>
@@ -189,7 +190,7 @@
           <DepthIncrement state="Value">1</DepthIncrement>
           <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
           <CutOrdering state="Default">LevelFirst</CutOrdering>
-          <StepOver state="Default">0.25</StepOver>
+          <StepOver state="Value">0.65</StepOver>
           <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
           <MillingDirection state="Default">Conventional</MillingDirection>
           <CollisionDetection state="Default">True</CollisionDetection>
@@ -202,13 +203,13 @@
           <RoughingClearance state="Default">0</RoughingClearance>
           <ClearancePlane state="Default">3</ClearancePlane>
           <SpindleDirection state="Default">CW</SpindleDirection>
-          <SpindleSpeed state="Default">12000</SpindleSpeed>
+          <SpindleSpeed state="Default">15000</SpindleSpeed>
           <SpindleRange state="Default">0</SpindleRange>
           <VelocityMode state="Default">Undefined</VelocityMode>
           <primitive>
             <prim>59</prim>
           </primitive>
-          <Style>Tool | MDF | Endmill 0.25in 4F</Style>
+          <Style>Tool | Plywood | Endmill 0.25in 4F</Style>
           <WorkPlane state="Default">XY</WorkPlane>
           <OptimisationMode state="Default">Experimental</OptimisationMode>
           <RoughingFinishing state="Default">Roughing</RoughingFinishing>
