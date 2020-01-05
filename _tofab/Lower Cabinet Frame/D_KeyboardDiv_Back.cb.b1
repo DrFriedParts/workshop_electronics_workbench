@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="D_KeyboardDiv_Back">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <objects>
+        <line id="59">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>285.75,0</p>
+            <p>349.25,0</p>
+          </pts>
+        </line>
+        <line id="61">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>349.25,300.0375</p>
+            <p>285.75,300.0375</p>
+          </pts>
+        </line>
+        <line id="63">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>495.3,0</p>
+            <p>558.8,0</p>
+          </pts>
+        </line>
+        <line id="64">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>558.8,300.0375</p>
+            <p>495.3,300.0375</p>
+          </pts>
+        </line>
+        <line id="67">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>565.15,0</p>
+            <p>628.65,0</p>
+          </pts>
+        </line>
+        <line id="68">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>628.65,300.0375</p>
+            <p>565.15,300.0375</p>
+          </pts>
+        </line>
+        <line id="71">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>76.2,0</p>
+            <p>139.7,0</p>
+          </pts>
+        </line>
+        <line id="72">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>139.7,300.0375</p>
+            <p>76.2,300.0375</p>
+          </pts>
+        </line>
+        <line id="75">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>146.05,0</p>
+            <p>209.55,0</p>
+          </pts>
+        </line>
+        <line id="76">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>209.55,300.0375</p>
+            <p>146.05,300.0375</p>
+          </pts>
+        </line>
+        <line id="79">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>215.9,0</p>
+            <p>279.4,0</p>
+          </pts>
+        </line>
+        <line id="81">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>279.4,300.0375</p>
+            <p>215.9,300.0375</p>
+          </pts>
+        </line>
+        <line id="83">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>355.6,0</p>
+            <p>419.1,0</p>
+          </pts>
+        </line>
+        <line id="84">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>419.1,300.0375</p>
+            <p>355.6,300.0375</p>
+          </pts>
+        </line>
+        <line id="87">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>425.45,0</p>
+            <p>488.95,0</p>
+          </pts>
+        </line>
+        <line id="88">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>488.95,300.0375</p>
+            <p>425.45,300.0375</p>
+          </pts>
+        </line>
+        <line id="91">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>0,300.0375</p>
+            <p>0,0</p>
+          </pts>
+        </line>
+        <line id="92">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>69.85,300.0375</p>
+            <p>0,300.0375</p>
+          </pts>
+        </line>
+        <line id="93">
+          <ModificationCount>2</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>0,0</p>
+            <p>69.85,0</p>
+          </pts>
+        </line>
+      </objects>
+      <ModificationCount>0</ModificationCount>
+    </layer>
+    <layer name="Layer1" color="127,255,0">
+      <objects />
+      <ModificationCount>0</ModificationCount>
+    </layer>
+    <layer name="Layer2" color="127,255,0">
+      <objects>
+        <line id="136">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>635,0</p>
+            <p>635,300.0375</p>
+          </pts>
+        </line>
+        <pline id="124" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>76.2,0,0</p>
+            <p>76.2,300.0375,0</p>
+            <p>69.85,300.0375,0</p>
+            <p>69.85,0,0</p>
+          </pts>
+        </pline>
+        <pline id="125" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>139.7,300.0375,0</p>
+            <p>139.7,0,0</p>
+            <p>146.05,0,0</p>
+            <p>146.05,300.0375,0</p>
+          </pts>
+        </pline>
+        <pline id="126" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>209.55,300.0375,0</p>
+            <p>209.55,0,0</p>
+            <p>215.9,0,0</p>
+            <p>215.9,300.0375,0</p>
+          </pts>
+        </pline>
+        <pline id="127" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>285.75,0,0</p>
+            <p>285.75,300.0375,0</p>
+            <p>279.4,300.0375,0</p>
+            <p>279.4,0,0</p>
+          </pts>
+        </pline>
+        <pline id="128" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>349.25,300.0375,0</p>
+            <p>349.25,0,0</p>
+            <p>355.6,0,0</p>
+            <p>355.6,300.0375,0</p>
+          </pts>
+        </pline>
+        <pline id="129" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>419.1,300.0375,0</p>
+            <p>419.1,0,0</p>
+            <p>425.45,0,0</p>
+            <p>425.45,300.0375,0</p>
+          </pts>
+        </pline>
+        <pline id="130" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>495.3,0,0</p>
+            <p>495.3,300.0375,0</p>
+            <p>488.95,300.0375,0</p>
+            <p>488.95,0,0</p>
+          </pts>
+        </pline>
+        <pline id="131" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>558.8,300.0375,0</p>
+            <p>558.8,0,0</p>
+            <p>565.15,0,0</p>
+            <p>565.15,300.0375,0</p>
+          </pts>
+        </pline>
+        <pline id="132" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>628.65,300.0375,0</p>
+            <p>628.65,0,0</p>
+            <p>635,0,0</p>
+            <p>635,300.0375,0</p>
+          </pts>
+        </pline>
+      </objects>
+      <ModificationCount>0</ModificationCount>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <OutFile>{$cbfile.name}.nc</OutFile>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+  </MachiningOptions>
+  <parts>
+    <part Name="Part1">
+      <machineops>
+        <pocket Enabled="true">
+          <TargetDepth state="Value">-7</TargetDepth>
+          <DepthIncrement state="Default">1</DepthIncrement>
+          <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
+          <CutOrdering state="Default">LevelFirst</CutOrdering>
+          <StepOver state="Value">0.5</StepOver>
+          <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
+          <MillingDirection state="Default">Conventional</MillingDirection>
+          <CollisionDetection state="Default">True</CollisionDetection>
+          <LeadInMove state="Default" />
+          <LeadOutMove state="Default" />
+          <RegionFillStyle state="Default">InsideOutsideOffsets</RegionFillStyle>
+          <FinishStepover state="Default">0</FinishStepover>
+          <FinishStepoverAtTargetDepth state="Default">False</FinishStepoverAtTargetDepth>
+          <StockSurface state="Default">0</StockSurface>
+          <RoughingClearance state="Default">0</RoughingClearance>
+          <ClearancePlane state="Value">12</ClearancePlane>
+          <SpindleDirection state="Default">CW</SpindleDirection>
+          <SpindleSpeed state="Default">12000</SpindleSpeed>
+          <SpindleRange state="Default">0</SpindleRange>
+          <VelocityMode state="Default">Undefined</VelocityMode>
+          <primitive>
+            <prim>124</prim>
+            <prim>125</prim>
+            <prim>126</prim>
+            <prim>127</prim>
+            <prim>128</prim>
+            <prim>129</prim>
+            <prim>130</prim>
+            <prim>131</prim>
+            <prim>132</prim>
+          </primitive>
+          <Style>Tool | MDF | Endmill 3.175mm 2F Spiral</Style>
+          <WorkPlane state="Default">XY</WorkPlane>
+          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <RoughingFinishing state="Default">Roughing</RoughingFinishing>
+          <ToolDiameter state="Default">3.175</ToolDiameter>
+          <ToolNumber state="Default">18</ToolNumber>
+          <ToolProfile state="Default">EndMill</ToolProfile>
+          <PlungeFeedrate state="Default">120</PlungeFeedrate>
+          <CutFeedrate state="Default">3000</CutFeedrate>
+          <MaxCrossoverDistance state="Default">0.25</MaxCrossoverDistance>
+          <StartPoint state="Default" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
+          <Name>Pocket1</Name>
+        </pocket>
+      </machineops>
+      <Stock>
+        <PMin>0,0</PMin>
+        <PMax>0,0</PMax>
+        <Color>255,165,0</Color>
+      </Stock>
+      <StyleLibrary>Jonathan-templates</StyleLibrary>
+      <ToolLibrary>Jonathan</ToolLibrary>
+      <ToolProfile>Unspecified</ToolProfile>
+      <Nesting>
+        <BasePoint />
+        <NestMethod>None</NestMethod>
+      </Nesting>
+    </part>
+  </parts>
+  <ActiveLayer>Layer2</ActiveLayer>
+  <ActivePart>Part1</ActivePart>
+</CADFile>
